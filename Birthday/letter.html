@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>A Letter for Baby 💌</title>
+  <link rel="stylesheet" href="css/letter.css">
+</head>
+<body>
+  <a href="birthday.html" class="back-link">← Back</a>
+
+  <div class="roses-bg" id="rosesBg"></div>
+
+  <div class="letter-scene">
+    <div class="envelope-stage" id="envelopeStage">
+      <div class="envelope-wrapper" id="envelopeWrapper">
+        <div class="envelope">
+          <div class="envelope-body"></div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-pocket"></div>
+          <span class="envelope-heart">💌</span>
+        </div>
+      </div>
+      <p class="tap-hint" id="tapHint">Tap the envelope to open your letter</p>
+    </div>
+
+    <article class="letter-paper" id="letterPaper">
+      <p class="letter-greeting" id="letterGreeting"></p>
+      <div class="letter-body" id="letterBody"></div>
+      <p class="letter-closing" id="letterClosing"></p>
+      <p class="letter-signature" id="letterSignature"></p>
+    </article>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/letter.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Memories — Baby 📷</title>
+  <link rel="stylesheet" href="css/montage.css">
+</head>
+<body>
+  <a href="birthday.html" class="back-link">← Back</a>
+
+  <div class="camera-screen">
+    <div class="photo-stage" id="photoStage"></div>
+    <div id="flowersBg" class="flowers-bg" aria-hidden="true"></div>
+    <div class="montage-message" id="montageMessage">From silly pics to unforgettable memories, i will always be with you baby.</div>
+  </div>
+
+  <div class="camera-overlay">
+    <div class="viewfinder-corner tl"></div>
+    <div class="viewfinder-corner tr"></div>
+    <div class="viewfinder-corner bl"></div>
+    <div class="viewfinder-corner br"></div>
+
+    <div class="camera-top-bar">
+      <div class="rec-badge">
+        <span class="rec-dot"></span>
+        REC
+      </div>
+      <span class="camera-time" id="cameraTime">00:00:00</span>
+    </div>
+
+    <div class="camera-bottom-bar">
+      <span class="frame-counter" id="frameCounter">FRAME 01 / 03</span>
+      <span class="montage-title">For My Baby</span>
+      <span class="battery-icon">🔋 100%</span>
+    </div>
+  </div>
+
+  <div class="scanlines"></div>
+  <div class="vignette"></div>
+  <div class="shutter-flash" id="shutterFlash"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/montage.js"></script>
+</body>
+</html>
